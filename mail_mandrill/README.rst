@@ -20,7 +20,8 @@ To configure this module, you need to:
   several triggers (Message Is Sent, Message Is Delayed, ...) and 'Post to URL'
   like https://your_odoodomain.com/mandrill/event
 * Copy Webhook key and paste in your Odoo configuration file, in 'options'
-  section, using 'mandrill_webhook_key' variable
+  section, using 'mandrill_webhook_key' variable. This is optional, but
+  recommended because it is used to validate Mandrill POST requests
 
 
 Usage
