@@ -2,8 +2,8 @@
 # License AGPL-3: Antiun Ingenieria S.L. - Antonio Espinosa
 # See README.rst file on addon root folder for more details
 
-from openerp.tests.common import TransactionCase
-from openerp.exceptions import Warning
+# from openerp.tests.common import TransactionCase
+# from openerp.exceptions import Warning
 from . import base
 
 
