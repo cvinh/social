@@ -215,7 +215,10 @@ class MailMessage(models.Model):
 
     @api.model
     def _drop_aliases(self, mail_list):
-        aliases = self.env["mail.alias"].get_aliases()
+        if not self.env.user.company_id.show_aliases_mail_tracking:
+            aliases = self.env["mail.alias"].get_aliases()
+        else:
+            aliases = {}
 
         def _filter_alias(email):
             email_wn = getaddresses([email])[0][1]
