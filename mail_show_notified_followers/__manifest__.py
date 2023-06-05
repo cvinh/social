@@ -1,7 +1,7 @@
 # © 2016 ACSONE SA/NV <https://acsone.eu>
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 {
-    "name": "Notified partners in mail body",
+    "name": "Show Notified Followers in mail body",
     "summary": """
         This module adds the list of notified partners in the body of
         notification e-mails sent by Odoo.
